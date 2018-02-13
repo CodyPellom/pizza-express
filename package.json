@@ -1,0 +1,34 @@
+{
+  "name": "pizza-express",
+  "version": "1.0.0",
+  "description": "MY PIZZA TOWN 4 PIZZA BOIZ ONLY",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "node.js": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodyPellom/pizza-express.git"
+  },
+  "keywords": [
+    "pizza",
+    "pizza",
+    "boiz",
+    "pizza",
+    "express",
+    "express.js",
+    "node"
+  ],
+  "author": "Kodi_Bear",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodyPellom/pizza-express/issues"
+  },
+  "homepage": "https://github.com/CodyPellom/pizza-express#readme"
+}
