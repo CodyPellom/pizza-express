@@ -1,3 +1,4 @@
+//setting up handlebars and views engine
 const hbs = require('hbs');
 app.set("view engine", "hbs");
 
@@ -15,17 +16,17 @@ const PORT = process.env.PORT || 3000;
 
 
 app.get('/', function(req, res) {
-res.send("Welcome to express pizza!")
+res.render("Welcome to express pizza!")
 
 })
 
 app.get('/topping/pepperoni', function(req, res){
-res.send("pepperoni pizza! Good choice!")
+res.render("pepperoni pizza! Good choice!")
 
 })
 
 app.get('/order/:amount/:size', function(req, res){
-res.send("Your order for 10 medium pizzas will be ready in 1 min!")
+res.render("Your order for 10 medium pizzas will be ready in 1 min!")
 
 })
 
