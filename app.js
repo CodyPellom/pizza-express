@@ -1,3 +1,7 @@
+const hbs = require('hbs');
+app.set("view engine", "hbs");
+
+
 //server set up
 
 //app.js
@@ -24,6 +28,8 @@ app.get('/order/:amount/:size', function(req, res){
 res.send("Your order for 10 medium pizzas will be ready in 1 min!")
 
 })
+
+
 // tells the server to listen for requests on port
 //3000 AKA localhost:3000 
 app.listen(PORT, function(){
